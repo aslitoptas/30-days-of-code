@@ -6,12 +6,10 @@ import random
 import re
 import sys
 
-
-
 if __name__ == '__main__':
     while(True):
         try:
-            N = int(input('Please enter an integer to see if it is a weird number: ').strip())
+            N = int(input().strip())
             if (N>100 or N<1):
                 print('The number should be between 1 and 100.')
                 continue
