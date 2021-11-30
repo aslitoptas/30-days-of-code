@@ -22,5 +22,8 @@ if __name__ == '__main__':
         #Make the list a string and remove brackets and commas
         str_rev=str(arr).lstrip('[').rstrip(']').replace(',','')
         print(str_rev)
+        #Or delete lines 23 and 24, and unpack the list with *
+        #Elements will not be seperated since the list is unpacked
+        #print(*arr)
     else:
         print('Constraint error.')
